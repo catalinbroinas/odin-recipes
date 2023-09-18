@@ -1,0 +1,39 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem 2rem;
+}
+.list
+{
+    display: block;
+    margin: 1rem 3rem;
+}
+.list-item
+{
+    display: inline-block;
+    background-color: lightgreen;
+    color: white;
+    margin-right: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+.list-item:hover
+{
+    background-color: green;
+    color: white;
+}
+.link
+{
+    color: white;
+}
+.link:link, link:visited, link:hover, link:active
+{
+    text-decoration: none;
+    color: white;
+}
