@@ -42,6 +42,15 @@ html
 }
 
 /* Components */
+.list-group
+{
+    margin-left: 3rem;
+    list-style-position: inside;
+}
+.list-group-item
+{
+    margin: 1rem;
+}
 .list
 {
     list-style-type: none;
