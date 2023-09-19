@@ -39,6 +39,9 @@ html
     font-family: Verdana, Arial, sans-serif;
     font-size: 1rem;
     line-height: 1.75rem;
+    text-indent: 2rem;
+    text-align: justify;
+    margin-bottom: 0.5rem;
 }
 
 /* Components */
@@ -50,6 +53,8 @@ html
 .list-group-item
 {
     margin: 1rem;
+    text-indent: 0;
+    text-align: left;
 }
 .list
 {
@@ -75,7 +80,7 @@ html
 {
     background-color: #2962FF;
     font-weight: bold;
-    border: .15rem solid #448AFF;
+    border: 0.15rem solid #448AFF;
     transition: all 1s;
 }
 .img-fluid
