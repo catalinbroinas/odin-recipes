@@ -1,3 +1,4 @@
+/* Website default style */
 *
 {
     padding: 0;
@@ -7,18 +8,40 @@ html
 {
     box-sizing: border-box;
 }
-*,
-    *::before,
-        *::after 
+*, *::before, *::after 
 {
     box-sizing: inherit;
 }
-body
+
+/* Pages style */
+.container
 {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 1rem 2rem;
+    width: 70%;
+    margin: 1rem auto;
 }
 
+/* Typography */ 
+.title
+{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+}
+.sub-title
+{
+    margin: 1rem 2rem;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text
+{
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+/* Components */
 .list
 {
     list-style-type: none;
