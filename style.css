@@ -69,3 +69,8 @@ html
     border: .15rem solid #448AFF;
     transition: all 1s;
 }
+.img-fluid
+{
+    max-width: 100%;
+    height: auto;
+}
