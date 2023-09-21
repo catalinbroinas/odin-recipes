@@ -23,6 +23,7 @@ html
 {
     display: flex;
     flex-flow: row wrap;
+    gap: 1rem;
 }
 .col
 {
@@ -66,6 +67,10 @@ html
     text-indent: 2rem;
     text-align: justify;
     margin-bottom: 0.5rem;
+}
+.text-center
+{
+    text-align: center;
 }
 
 /* Components */
