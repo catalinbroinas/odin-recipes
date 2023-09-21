@@ -31,14 +31,14 @@ html
     flex-flow: column wrap;
     flex: 1 0 35%;
 }
-.col-7
+.left-index
 {
     min-width: 500px;
     display: flex;
     flex-flow: column wrap;
     flex: 2 1 50%;
 }
-.col-3
+.right-index
 {
     display: flex;
     flex-flow: column wrap;
